@@ -1,0 +1,1 @@
+package day2;import org.junit.jupiter.api.Test;import static org.junit.jupiter.api.Assertions.*;class StringToIntegerTest {    @Test    void testStringToInteger(){        StringToInteger toInteger =new StringToInteger();        int actual = toInteger.myAtoi("42");        assertEquals(42,actual);    }}
