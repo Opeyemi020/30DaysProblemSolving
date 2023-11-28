@@ -1,0 +1,1 @@
+package day4;import org.junit.jupiter.api.Test;import static org.junit.jupiter.api.Assertions.*;class RomanToIntegerTest {    @Test    void RomanCanBeConvertedToIntegerTest(){        RomanToInteger toInteger = new RomanToInteger();        int actual = RomanToInteger.convertRomanToInteger("III");        int expected = 3;        assertEquals(expected,actual);    }}
