@@ -1,0 +1,1 @@
+package day3;import org.junit.jupiter.api.Test;import static org.junit.jupiter.api.Assertions.*;class IntegerToRomanTest {    @Test    void convertedIntegerToRomanTest(){        IntegerToRoman roman = new IntegerToRoman();        String actual = roman.integerToRoman(3);        String expected = "III";        assertEquals(expected,actual);    }}
