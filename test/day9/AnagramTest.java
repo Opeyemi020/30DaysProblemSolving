@@ -1,0 +1,1 @@
+package day9;import org.junit.jupiter.api.Test;import static org.junit.jupiter.api.Assertions.*;class AnagramTest {    @Test    void testAnagramChecker(){        Anagram anagram = new Anagram();        String s = "anagram";        String s2 = "nagaram";        boolean actual = anagram.isAnagram(s,s2);        assertTrue(actual);    }}
